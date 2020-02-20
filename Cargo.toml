@@ -1,0 +1,16 @@
+[package]
+name = "scs-rs"
+version = "0.1.0"
+authors = ["Ben Ruijl <benruyl@gmail.com>"]
+keywords = ["convex", "optimization", "scs"]
+categories = ["api-bindings", "mathematics", "algorithms"]
+repository = "https://github.com/benruijl/scs-rs"
+license = "MIT"
+readme = "README.md"
+description = "Bindings to the SCS convex optimization solver"
+
+[lib]
+name = "scs"
+path = "src/lib.rs"
+
+[dependencies]
